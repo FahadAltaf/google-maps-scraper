@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-GoogleMapsScraper-B98CF8A1-F9FC-4F21-BEBE-FA948012678C</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.2.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.42" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.27.0" />
+    <PackageReference Include="Selenium.Support" Version="4.1.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.1.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="101.0.4951.4100" />
+  </ItemGroup>
+</Project>
